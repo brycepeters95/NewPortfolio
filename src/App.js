@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import WorkInProgress from "./components/WorkInProgress"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <WorkInProgress />
       <Contact />
     </div>
   );
